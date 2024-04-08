@@ -121,28 +121,28 @@
 
   <footer>
   <form action="" class="formulario">
-    <h3>Entre em contato</h3>
+    <h3 class="palavras" id="titulo-footer">Entre em contato</h3>
+    <br>
+
+      <label for="name" class="palavras" id="nome">Nome:</label>
+      <input type="text" class="box-c" name="nome" id="name" placeholder="Seu nome">
     <br>
 
     <div>
-      <label for="name">Nome:</label>
-      <input type="text" name="nome" id="name"  placeholder="Seu nome">
-    </div>
-    <br>
-
-    <div>
-      <label for="email">Email:</label>
-      <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com">
+      <label for="email" class="palavras">Email:</label>
+      <input type="email" class="box-c" name="email" id="email" placeholder="exemplo@exemplo.com">
     </div>
     <br>
 
     <div>
       <label for="conteudo"></label>
-      <textarea name="texto" id="conteudo" cols="30" rows="10" placeholder="Mande uma mensagem"></textarea>
+      <textarea name="texto" class="box-c" id="conteudo" cols="30" rows="10" placeholder="Mande uma mensagem"></textarea>
     </div>
 
     <br>
-    <input type="submit" name="send" value="Enviar"/>
+    <div class="button-container">
+    <input type="submit" name="send" value="Enviar" class="centered-button" id="button-footer"/>
+    </div>
   </form>
   </footer>
 </div>

@@ -103,6 +103,18 @@ color: white;
 background-color: #00bcad;
 }
 
+#button-footer{
+position: absolute;
+top: 92%;
+left: 14%;
+transform: translate(-50%, -50%);
+background-color: #6b3fa0;
+}
+
+#button-footer:hover{
+background-color: #9862D8;
+}
+
 .texto{
 color: white;
 position: absolute;
@@ -268,5 +280,61 @@ transform: translate(-250%, -0%);
 position: absolute;
 top: 400%;
 left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.palavras{
+color: #6b3fa0;
+}
+
+/* --------------------------------------------------- */
+
+.box-c {
+position: relative;
+}
+
+.box-c::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(255, 255, 255, 0.7); /* Cor branca com 70% de opacidade */
+border-radius: 10px;
+z-index: -1; /* Para garantir que fique atrás do input */
+}
+
+#name {
+top: 16px;
+left: 114px;
+transform: translate(-50%, -50%);
+border-radius: 12px;
+padding: 12px;
+border: 1px solid #ccc;
+position: relative;
+}
+
+#email {
+top: 18px;
+left: 118px;
+transform: translate(-50%, -50%);
+border-radius: 12px;
+padding: 12px;
+border: 1px solid #ccc;
+position: relative;
+}
+
+#conteudo {
+border-radius: 10px;
+padding: 10px;
+border: 1px solid #ccc;
+position: relative;
+}
+
+#titulo-footer{
+position: relative;
+top: 0px;
+left: 138px;
 transform: translate(-50%, -50%);
 }
