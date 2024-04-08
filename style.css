@@ -172,7 +172,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 .timeline {
 position: absolute;
-top: 200%;
+top: 205%;
 left: 40%;
 transform: translate(-50%, -50%);
 border-radius: 10px;
@@ -194,12 +194,12 @@ left: 60%;
 }
 
 #t02 {
-top: 280%;
+top: 285%;
 left: 60%;
 }
 
 #t03 {
-top: 320%;
+top: 325%;
 left: 40%;
 }
 
