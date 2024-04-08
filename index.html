@@ -46,6 +46,7 @@
     <hr>
   </article>
 
+  <section>
     <div class="timeline">
   <ul>
     <li>
@@ -114,9 +115,35 @@
       </li>
     </ul>
   </div>
+  </section>
+
+  <div class="box-contato" id="contato"></div>
 
   <footer>
-    <div class="box-contato" id="contato"></div>
+  <form action="" class="formulario">
+    <h3>Entre em contato</h3>
+    <br>
+
+    <div>
+      <label for="name">Nome:</label>
+      <input type="text" name="nome" id="name"  placeholder="Seu nome">
+    </div>
+    <br>
+
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com">
+    </div>
+    <br>
+
+    <div>
+      <label for="conteudo"></label>
+      <textarea name="texto" id="conteudo" cols="30" rows="10" placeholder="Mande uma mensagem"></textarea>
+    </div>
+
+    <br>
+    <input type="submit" name="send" value="Enviar"/>
+  </form>
   </footer>
 </div>
 </body>
