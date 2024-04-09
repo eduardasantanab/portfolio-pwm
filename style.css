@@ -340,12 +340,13 @@ transform: translate(-50%, -50%);
 }
 
 .icones{
+display: flex;
 position: absolute;
-top: 150%;
-left: 80%;
+top: 160%;
+left: 38%;
 transform: translate(-50%, -50%);
 font-size: 45px;
-width: 100%;
+width: 10%;
 position: center;
 }
 
