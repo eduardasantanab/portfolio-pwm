@@ -338,3 +338,33 @@ top: 0px;
 left: 138px;
 transform: translate(-50%, -50%);
 }
+
+.icones{
+position: absolute;
+top: 150%;
+left: 80%;
+transform: translate(-50%, -50%);
+font-size: 45px;
+width: 100%;
+position: center;
+}
+
+#java{
+color: #ff0000;
+padding: 50px;
+}
+
+#py{
+color: #003366;
+padding: 50px;
+}
+
+#html{
+color: #ed6b21;
+padding: 50px;
+}
+
+#js{
+color: #eead2d;
+padding: 50px;
+}
