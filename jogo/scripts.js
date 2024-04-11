@@ -1,5 +1,5 @@
-const sequencia = gerarSequencia();
-const meuJogo = adicionarInputs(sequencia);
+const historicoSequenciasUsuario = [];
+const sequenciaGerada = gerarSequencia();
 
 function gerarSequencia() {
     let numeros = [];
@@ -17,19 +17,17 @@ function gerarSequencia() {
     return numeros;
 }
 
-function adicionarInputs(sequencia) {
-    const valorInput0 = document.getElementById("number").value;
-    const valorInput1 = document.getElementById("number-01").value;
-    const valorInput2 = document.getElementById("number-02").value;
-    const valorInput3 = document.getElementById("number-03").value;
+function adicionarInputs() {
+    const valorInput0 = parseInt(document.getElementById("number").value);
+    const valorInput1 = parseInt(document.getElementById("number-01").value);
+    const valorInput2 = parseInt(document.getElementById("number-02").value);
+    const valorInput3 = parseInt(document.getElementById("number-03").value);
 
-    meuArray.push(valorInput0, valorInput1, valorInput2, valorInput3);
+    const tentativa = [valorInput0, valorInput1, valorInput2, valorInput3];
 
-    jogar();
+    verificarTentativa(tentativa);
+    atualizarHistorico();
 }
 
 
-function jogar() {
-
-}
 
