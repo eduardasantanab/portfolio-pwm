@@ -1,3 +1,5 @@
+const MAX_TENTATIVAS = 10;
+let tentativasRestantes = MAX_TENTATIVAS;
 const historicoSequenciasUsuario = [];
 const sequenciaGerada = gerarSequencia();
 
@@ -18,16 +20,26 @@ function gerarSequencia() {
 }
 
 function adicionarInputs() {
-    const valorInput0 = parseInt(document.getElementById("number").value);
-    const valorInput1 = parseInt(document.getElementById("number-01").value);
-    const valorInput2 = parseInt(document.getElementById("number-02").value);
-    const valorInput3 = parseInt(document.getElementById("number-03").value);
+    if (tentativasRestantes > 0) {
+        const valorInput0 = parseInt(document.getElementById("number").value);
+        const valorInput1 = parseInt(document.getElementById("number-01").value);
+        const valorInput2 = parseInt(document.getElementById("number-02").value);
+        const valorInput3 = parseInt(document.getElementById("number-03").value);
 
-    const tentativa = [valorInput0, valorInput1, valorInput2, valorInput3];
+        const tentativa = [valorInput0, valorInput1, valorInput2, valorInput3];
 
-    verificarTentativa(tentativa);
-    atualizarHistorico();
+        verificarTentativa(tentativa);
+        atualizarHistorico();
+        tentativasRestantes--;
+
+        if (tentativa.join('') === sequenciaGerada.join('')) {
+            alert("Parabéns! Você acertou a sequência!");
+        }
+    } else {
+        alert("Você atingiu o limite de tentativas!");
+    }
 }
+
 
 function verificarTentativa(tentativa) {
     const resultado = [];

@@ -90,8 +90,8 @@ border: none;
 border-radius: 8px;
 cursor: pointer; /*icone cursor do mouse*/
 position: relative;
-left: 280px;
-transform: translate(-390%, -490%);
+left: 270px;
+transform: translate(-190%, 32%);
 padding: 8px 16px;
 margin: 40px 5px;
 font-size: 15px;
@@ -113,23 +113,20 @@ font-size: 10px;
 
 #c-01{
 background: green;
-top: -20%;
-left: 210%;
-transform: translate(1600%, -570%);
+top: 260px;
+transform: translate(-290%, -470%);
 }
 
 #c-02 {
 background: yellow;
-top: 0%;
-left: 210%;
-transform: translate(1600%, -400%);
+top: 260px;
+transform: translate(-290%, -300%);
 }
 
 #c-03 {
 background: grey;
-top: 25%;
-left: 210%;
-transform: translate(1600%, -230%);
+top: 260px;
+transform: translate(-290%, -130%);
 }
 
 h3{
@@ -140,8 +137,8 @@ white-space: nowrap;
 #c{
 position: absolute;
 top: 50%;
-left: 530%;
-transform: translate(-50%, -50%);
+left: 550%;
+transform: translate(-38%, -50%);
 }
 
 #a{
@@ -154,33 +151,20 @@ transform: translate(-50%, -50%);
 #w{
 position: absolute;
 top: 50%;
-left: 410%;
+left: 400%;
 transform: translate(-50%, -50%);
+}
+
+#i{
+position: fixed;
+top: -200px;
+left: -350px;
+transform: translate(70%, -50%);
 }
 
 .palavras{
 color: #6b3fa0;
 transform: translate(-0%, -90%);
-}
-
-.box{
-margin: 0 auto;
-position: fixed;
-top: 55%;
-left: 60%;
-transform: translate(-38%, -40%);
-width: 300px;
-height: 550px;
-opacity: 0.3
-}
-
-#teste{
-background: rgba( 255, 255, 255, 255);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 165, 0.57 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 article{
@@ -192,7 +176,7 @@ transform: translate(-50%, -50%);
 
 .box-c {
 position: fixed;
-top: -20px;
+top: -160px;
 transform: translate(-50%, -50%);
 border-radius: 12px;
 border: 1px solid #ccc;
@@ -215,21 +199,25 @@ z-index: -1;
 }
 
 #number {
-left: -40px;
+left: -50px;
 }
 
 #number-01 {
-left: 10px;
+left: 0px;
 }
 
 #number-02 {
-left: 60px;
+left: 50px;
 }
 
 #number-03 {
-left: 110px;
+left: 100px;
 }
 
 .jogo{
 position: fixed;
+}
+
+.jogo{
+top: -230px;
 }
