@@ -29,5 +29,22 @@ function adicionarInputs() {
     atualizarHistorico();
 }
 
+function verificarTentativa(tentativa) {
+    const resultado = [];
+
+    for (let i = 0; i < 4; i++) {
+        if (tentativa[i] === sequenciaGerada[i]) {
+            resultado.push("correto");
+        } else if (sequenciaGerada.includes(tentativa[i])) {
+            resultado.push("incorreto");
+        } else {
+            resultado.push("ausente");
+        }
+    }
+
+    historicoSequenciasUsuario.push([...tentativa, resultado]);
+}
+
+
 
 
