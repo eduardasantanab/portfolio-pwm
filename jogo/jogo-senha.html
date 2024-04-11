@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <title>Jogo Senha</title>
+</head>
+
+<body>
+<script src="./scripts.js"></script>
+
+ <div class="container">
+    <nav>
+      <div class="logo">PWM<b>.</b></div>
+
+      <ul class="navItems">
+        <li><a href="/sobre-mim/sobre.html">Sobre mim</a></li>
+        <li><a href="/experiencias/experiencias.html">Experiências</a></li>
+        <li><a href="/projetos/projetos.html">Projetos</a></li>
+        <li><a href="/jogo/jogo-senha.html">Jogo</a></li>
+      </ul>
+
+      <div class="links">
+        <a href="https://www.linkedin.com/in/eduardasantanab/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/eduardasantanab"><i class="fab fa-github"></i></a>
+      </div>
+    </nav>
+</div>
+
+<article>
+  <div class="box" id="teste"></div>
+
+  <div class="button-container">
+  <form action="">
+    <label for="number" class="palavras"></label>
+    <input class="box-c" type="number" name="number" id="number">
+    <input class="box-c" type="number" name="number" id="number-01">
+    <input class="box-c" type="number" name="number" id="number-02">
+    <input class="box-c" type="number" name="number" id="number-03">
+  </form>
+  <button class="centered-button" type="submit" name="send" onclick="adicionarInputs()">Jogar</button>
+  </div>
+
+  <div class="circulo" id="c-01"><h3 class="palavras" id="c">Valor e posição correta</h3></div>
+  <div class="circulo" id="c-02"><h3 class="palavras" id="a">Valor correto e posição incorreta</h3></div>
+  <div class="circulo" id="c-03"><h3 class="palavras" id="w">Valor incorreto</h3></div>
+
+  <br>
+</article>
+</body>
+</html>
