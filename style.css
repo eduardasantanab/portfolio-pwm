@@ -198,33 +198,40 @@ padding: 20px 20px;
 .timeline ul li {
 display: flex;
 align-items: center;
-margin-bottom: 50px;
+margin-bottom: 70px;
 list-style-type: none;
 }
 
 #t00 {
-top: 230%;
-left: 60%;
+top: 262%;
+left: 61.8%;
 }
 
 #t01 {
-top: 260%;
-left: 60%;
+padding: 20px 50px;
+top: 230%;
+left: 61.7%;
 }
 
 #t02 {
-top: 290%;
-left: 60%;
+padding: 20px 45px;
+top: 293%;
+left: 62.2%;
 }
 
 #t03 {
-top: 320%;
-left: 40%;
+padding: 30px 20px;
+top: 325%;
+left: 39.3%;
 }
 
 .experiencia{
 margin: 0 40px;
 font-size: 14px;
+}
+
+#e03 {
+margin: 0px 40px;
 }
 
 .descricao{
@@ -235,6 +242,32 @@ left: 30%;
 transform: translate(-50%, -50%);
 margin: 0 40px;
 font-size: 12px;
+}
+
+#d {
+left: 32.5%;
+text-align: center;
+}
+
+#d00 {
+left: 35%;
+text-align: center;
+}
+
+#d01 {
+left: 35%;
+text-align: center;
+}
+
+#d02 {
+left: 35%;
+text-align: center;
+}
+
+#d03 {
+top: 63%;
+left: 34%;
+text-align: center;
 }
 
 .descricao-tl{
@@ -278,7 +311,7 @@ transform: translate(-50%, -50%);
 background: #039d91;
 position: absolute;
 top: 40%;
-left: 117%;
+left: 116%;
 border-radius: 50%;
 width: 20px;
 height: 20px;
@@ -286,7 +319,7 @@ height: 20px;
 
 #c00{
 top: 40%;
-left: 0.4%;
+left: 0.5%;
 transform: translate(-280%, -0%);
 }
 
@@ -298,8 +331,8 @@ transform: translate(-280%, -0%);
 
 #c02{
 top: 40%;
-left: 0.5%;
-transform: translate(-280%, -0%);
+left: -2%;
+transform: translate(-285%, -0%);
 }
 
 .formulario{
@@ -468,4 +501,3 @@ animation: go-back 0.8s;
     transform: translateX(0);
   }
 }
-
