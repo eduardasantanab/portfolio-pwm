@@ -202,18 +202,23 @@ margin-bottom: 50px;
 list-style-type: none;
 }
 
+#t00 {
+top: 230%;
+left: 60%;
+}
+
 #t01 {
-top: 240%;
+top: 260%;
 left: 60%;
 }
 
 #t02 {
-top: 285%;
+top: 290%;
 left: 60%;
 }
 
 #t03 {
-top: 325%;
+top: 320%;
 left: 40%;
 }
 
@@ -245,6 +250,12 @@ left: 165%;
 transform: translate(-50%, -50%);
 }
 
+#a00{
+top: 50%;
+left: 0.5%;
+transform: translate(-180%, -50%);
+}
+
 #a01{
 top: 50%;
 left: 0.5%;
@@ -271,6 +282,12 @@ left: 117%;
 border-radius: 50%;
 width: 20px;
 height: 20px;
+}
+
+#c00{
+top: 40%;
+left: 0.4%;
+transform: translate(-280%, -0%);
 }
 
 #c01{
