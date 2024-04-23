@@ -121,3 +121,57 @@ backdrop-filter: blur( 4px );
 border-radius: 5px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+
+/* imagens por box */
+
+#p0{
+position: absolute;
+top: 50%;
+left: 20%;
+transform: translate(-50%, -50%);
+z-index: 1;
+}
+
+#p1{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+#p2{
+position: absolute;
+top: 50%;
+left: 80%;
+transform: translate(-50%, -50%);
+}
+
+/* legendas de cada box */
+
+.pdi{
+color: #6b3fa0;
+text-align: center;
+position: absolute;
+top: 80%;
+left: 20%;
+transform: translate(-50%, -50%);
+z-index: 1;
+}
+
+.pbd{
+color: #6b3fa0;
+text-align: center;
+position: absolute;
+top: 80%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.pw{
+color: #6b3fa0;
+text-align: center;
+position: absolute;
+top: 80%;
+left: 80%;
+transform: translate(-50%, -50%);
+}
