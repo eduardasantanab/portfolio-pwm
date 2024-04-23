@@ -1,7 +1,11 @@
-function adicionarInputs() {
-   const valorInput = parseInt(document.getElementById("button-footer").value);
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
 
-   if ( ) {
-         alert("Mensagem enviada com sucesso!");
-   }
-}
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>

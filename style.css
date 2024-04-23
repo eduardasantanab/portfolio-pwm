@@ -253,6 +253,14 @@ left: 80%;
 
 /* linha do tempo */
 
+h1{
+color: #039d91;
+position: absolute;
+top: 180%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
 .linha-reta{
 position: absolute;
 top: 265%;
@@ -493,3 +501,4 @@ background-color: black;
 border-radius: 10px;
 z-index: -1;
 }
+
