@@ -11,7 +11,7 @@ font-family: Verdana, sans-serif;
 
 body{
 overflow: auto;
-background-image: url("/arquivos/teste.jpg");
+background-image: url("/arquivos/img-fundo.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;

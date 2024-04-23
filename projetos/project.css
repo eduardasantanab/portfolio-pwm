@@ -11,7 +11,7 @@ font-family: Verdana, sans-serif;
 
 body{
 overflow: auto;
-background-image: url("/arquivos/teste.jpg");
+background-image: url("/arquivos/img-fundo.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -19,7 +19,6 @@ margin-top: 1000px;
 height: 0;
 width: 0;
 }
-
 
 .container{
 width: 100%;
@@ -91,15 +90,6 @@ transform: translate(-50%, -50%);
 width: 400px;
 height: 500px;
 opacity: 0.3
-}
-
-#glass-box{
-background: rgba( 255, 255, 255, 255);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 165, 0.57 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 #glass-box{
