@@ -1,5 +1,7 @@
 @import url ('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
 
+/* pagina inicial */
+
 *{
 margin: 0;
 padding: 0;
@@ -41,43 +43,45 @@ display: flex;
 font-size: 40px;
 font-weight: 800;
 color: white;
-letter-spacing: 3px; /*espacamento entre letras*/
+letter-spacing: 3px;
 text-transform: uppercase;
 }
 
 b{
 font-size: 70px;
-color: #6b3fa0; /*estiliza o ponto da logo*/
+color: #6b3fa0;
 }
 
 .navItems{
-display: flex; /*alinha o texto do cabeçalho na horizontal*/
+display: flex;
 }
 
 .navItems li{
-list-style: none; /*remove pontos de lista*/
-margin: 0 40px; /*espaçamento entre palavras do cabeçalho*/
+list-style: none;
+margin: 0 40px;
 }
 
-.navItems li a{ /*nomes do cabeçalho*/
+.navItems li a{
 font-size: 15px;
 color: white;
 letter-spacing: 3px;
-text-decoration: none; /*remove sublinhado de hiperlink*/
+text-decoration: none;
 }
 
 .navItems li:hover a{
 color: #039d91;
 }
 
-.links a{ /*icones do cabeçalho*/
+.links a{
 font-size: 20px;
 color: #6b3fa0;
 width: 100%;
 position: center;
 left: 150px;
-margin: 10px 10px; /*espaçamento*/
+margin: 10px 10px;
 }
+
+/* sessão com box de projetos */
 
 .box{
 margin: 0 auto;
