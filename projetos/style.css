@@ -31,6 +31,7 @@ nav{
     height: 80px;
     line-height: 80px;
     top: 0;
+    z-index: 1;
 }
 
 .logo{
@@ -150,7 +151,7 @@ button:hover{
 
 .group{
     position: absolute;
-    top: 700px;
+    top: 850px;
     left: 300px;
     transform: translate(230%, -50%);
     text-align: center;
