@@ -40,7 +40,6 @@ function adicionarInputs() {
     }
 }
 
-
 function verificarTentativa(tentativa) {
     const resultado = [];
 

@@ -16,14 +16,6 @@ background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
 margin-top: 3200px;
-height: 0;
-width: 0;
-}
-
-.container{
-width: 100%;
-min-height: 100vh;
-text-decoration: none;
 }
 
 nav{
@@ -80,148 +72,88 @@ left: 150px;
 margin: 10px 10px;
 }
 
-/* imagens */
+/* informacoes pessoais */
 
-#c-01{
+
+.apresentacao{
 position: absolute;
-top: 50%;
+color: white;
+text-align: center;
+top: 25%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 1;
+}
+
+.nav-pessoal-01{
+position: absolute;
+top: 80%;
 left: 20%;
 transform: translate(-50%, -50%);
 }
 
-#c-02{
+.nav-pessoal-02{
 position: absolute;
-top: 50%;
+top: 80%;
 left: 50%;
 transform: translate(-50%, -50%);
 }
 
-#c-03{
+.nav-pessoal-03{
 position: absolute;
-top: 50%;
+top: 80%;
 left: 80%;
 transform: translate(-50%, -50%);
 }
 
-#c-04{
+.nav-pessoal-04{
 position: absolute;
-top: 150%;
-left: 29%;
+top: 180%;
+left: 21%;
 transform: translate(-50%, -50%);
 }
 
-#c-05{
+.nav-pessoal-05{
 position: absolute;
-top: 150%;
-left: 72%;
+top: 180%;
+left: 65%;
 transform: translate(-50%, -50%);
 }
 
-#c-06{
+.nav-pessoal-06{
 position: absolute;
-top: 270%;
-left: 50%;
+top: 282%;
+left: 21%;
 transform: translate(-50%, -50%);
 }
 
-#c-07{
+.nav-pessoal-07{
 position: absolute;
-top: 370%;
-left: 50%;
+top: 282%;
+left: 65%;
 transform: translate(-50%, -50%);
 }
 
-/* sessão com box sobre mim */
-
-.box{
-margin: 0 auto;
+.nav-pessoal-08{
 position: absolute;
-top: 57%;
-transform: translate(-50%, -50%);
-width: 400px;
-height: 580px;
-opacity: 0.3
-}
-
-#glass-box{
-left: 20%;
-background: rgba( 255, 255, 255, 255);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 165, 0.57 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 5px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
-
-#glass-box2{
-left: 50%;
-background: rgba( 255, 255, 255, 255);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 165, 0.57 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 5px;
-border: 1px  rgba( 255, 255, 255, 0.18 );
-}
-
-#glass-box3{
-left: 80%;
-background: rgba( 255, 255, 255, 255);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 165, 0.57 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 5px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
-
-#glass-box4{
-width: 620px;
-height: 630px;
-top: 162%;
-left: 29%;
-background: rgba( 255, 255, 255, 255);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 165, 0.57 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 5px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
-
-#glass-box5{
-width: 620px;
-height: 630px;
-top: 162%;
-left: 72%;
-background: rgba( 255, 255, 255, 255);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 165, 0.57 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 5px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
-
-#glass-box6{
-width: 1030px;
-height: 680px;
-top: 277%;
-left: 50%;
-background: rgba( 255, 255, 255, 255);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 165, 0.57 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 5px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
-
-#glass-box7{
-width: 1050px;
-height: 645px;
 top: 378%;
-left: 50%;
-background: rgba( 255, 255, 255, 255);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 165, 0.57 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 5px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+left: 21%;
+transform: translate(-50%, -50%);
 }
+
+.nav-pessoal-09{
+position: absolute;
+top: 378%;
+left: 65%;
+transform: translate(-50%, -50%);
+}
+
+.accordion-body{
+color: #6b3fa0;
+}
+
+.accordion-button.collapsed{
+color: #039d91;
+}
+
 

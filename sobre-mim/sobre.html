@@ -2,78 +2,224 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Sobre mim</title>
 </head>
 <body>
-<div class="container">
-    <nav>
-        <div class="logo">PWM<b>.</b></div>
+<nav>
+    <div class="logo">PWM<b>.</b></div>
 
-        <ul class="navItems">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="/sobre-mim/sobre.html">Sobre mim</a></li>
-            <li><a href=../#secao1">Experiências</a></li>
-            <li><a href="/projetos/projetos.html">Projetos</a></li>
-            <li><a href="/jogo/jogo-senha.html">Jogo</a></li>
-        </ul>
+    <ul class="navItems">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="/sobre-mim/sobre.html">Sobre mim</a></li>
+        <li><a href=../#secao1">Experiências</a></li>
+        <li><a href="/projetos/projetos.html">Projetos</a></li>
+        <li><a href="/jogo/jogo-senha.html">Jogo</a></li>
+    </ul>
 
-        <div class="links">
-            <a href="https://www.linkedin.com/in/eduardasantanab/"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/eduardasantanab"><i class="fab fa-github"></i></a>
-        </div>
-    </nav>
-
-    <div class="box" id="glass-box"></div>
-    <div class="box" id="glass-box2"></div>
-    <div class="box" id="glass-box3"></div>
-    <div class="box" id="glass-box4"></div>
-    <div class="box" id="glass-box5"></div>
-    <div class="box" id="glass-box6"></div>
-    <div class="box" id="glass-box7"></div>
-
-    <div class="info-01">
-        <div class="bike" id="c-01"><a>
-            <img src="/arquivos/bike.jpg" alt="bike" width="336" height="448"></a>
-        </div>
+    <div class="links">
+        <a href="https://www.linkedin.com/in/eduardasantanab/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/eduardasantanab"><i class="fab fa-github"></i></a>
     </div>
+</nav>
 
-    <div class="info-02">
-        <div class="frevo" id="c-02">
-            <a><img src="/arquivos/frevo.jpg" alt="sombrinha frevo" width="380" height="448"></a>
-        </div>
-    </div>
+<div class="apresentacao">Olá, me chamo Maria Eduarda! Sou graduanda do <strong>5º período</strong> de
+    <strong>Ciência da Computação</strong>, na <strong>Universidade Católica de Pernambuco</strong>.
+    A seguir, contarei um pouco mais sobre as skills relacionadas aos meus hobbies e a algumas das boas
+    vivências acadêmicas que já pude experimentar junto a outros colegas do curso.<hr>
+</div>
 
-    <div class="info-03">
-        <div class="concuso" id="c-03">
-            <a><img src="/arquivos/concurso.jpg" alt="concurso" width="336" height="448"></a>
-        </div>
-    </div>
-
-    <div class="info-04">
-        <div class="pibic" id="c-04">
-            <a><img src="/arquivos/pibic.jpeg" alt="pibic" width="600" height="428"></a>
-        </div>
-    </div>
-
-    <div class="info-05">
-        <div class="workshop" id="c-05">
-            <a><img src="/arquivos/workshop.jpg" alt="workshop" width="600" height="428"></a>
-        </div>
-    </div>
-
-    <div class="info-06">
-        <div class="avanade-marco-zero" id="c-06">
-            <a><img src="/arquivos/avanade-marco-zero.png" alt="visita" width="1000" height="540"></a>
-        </div>
-    </div>
-
-    <div class="info-07">
-        <div class="aprovacao" id="c-07">
-            <a><img src="/arquivos/aprovacao.png" alt="aprovacao" width="1024" height="490"></a>
+<div class="nav-pessoal-01">
+    <div class="accordion" id="bike">
+        <div class="accordion-item"  style="border-radius: 10px;">
+            <a><img src="/arquivos/bike.jpg" alt="bike" width="336" height="448"></a>
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"  style="border-radius: 10px;">
+                    Bicicleta
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#bike">
+                <div class="accordion-body">
+                    Adoro pedalar e unir esse exercício<br>
+                    com o lado experimental que só as<br>
+                    paisagens e as ruas do Recife (em<br>
+                    especial, Recife Antigo) permitem.<br>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
+<div class="nav-pessoal-02">
+    <div class="accordion" id="frevo">
+        <div class="accordion-item" style="border-radius: 10px;">
+            <a><img src="/arquivos/frevo.jpg" alt="sombrinha frevo" width="380" height="448"></a>
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"  style="border-radius: 10px;">
+                    Dança Popular
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#frevo">
+                <div class="accordion-body">
+                    Faço dança popular e sou apaixonada pelo<br>
+                    que esse exercício representa para mim,<br>
+                    como expressão e conhecimento cultural.<br>
+                    Já pude aprender ritmos como frevo,<br>
+                    maracatu, coco, xaxado e caboclinhos.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="nav-pessoal-03">
+    <div class="accordion" id="pintura">
+        <div class="accordion-item" style="border-radius: 10px;">
+            <a><img src="/arquivos/pintura.jpg" alt="concurso" width="336" height="448"></a>
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"  style="border-radius: 10px;">
+                    Pintura
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#pintura">
+                <div class="accordion-body">
+                    Gosto de me aventurar fazendo desenhos e pinturas
+                    em aquarela, principalmente, de paisagens e botânica.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="nav-pessoal-04">
+    <div class="accordion" id="workshop">
+        <div class="accordion-item" style="border-radius: 10px;">
+            <a><img src="/arquivos/workshop.jpg" alt="aprovacao" width="369" height="492"></a>
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"  style="border-radius: 10px;">
+                    Workshop para mulheres na TI
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#workshop">
+                <div class="accordion-body">
+                    Fui integrante de um grupo feminino,<br>
+                    na UNICAP, que tinha por objetivo a <br>
+                    integração e o debate sobre os muitos<br>
+                    aspectos relacionados à participação<br>
+                    feminina no mercado de trabalho,<br>
+                    especialmente nas áreas de TI.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="nav-pessoal-05">
+    <div class="accordion" id="pibic">
+        <div class="accordion-item" style="border-radius: 10px;">
+            <a><img src="/arquivos/pibic.jpeg" alt="aprovacao" width="800" height="550"></a>
+            <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"  style="border-radius: 10px;">
+                    Pesquisa e Iniciação Científica (2023-2024)
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#pibic">
+                <div class="accordion-body">
+                    Participo como bolsista de um grupo de pesquisa e iniciação científica, na UNICAP, com<br>
+                    direcionamento em aplicações de IA. O tema de estudo o qual me dedico pertence faz parte<br>
+                    da área de processamento digital de imagens e reflete: "Avaliação de redes neurais deep<br>
+                    learning para a classificação de câncer de mama".
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="nav-pessoal-06">
+    <div class="accordion" id="visita">
+        <div class="accordion-item" style="border-radius: 10px;">
+            <a><img src="/arquivos/visita.jpg" alt="visita" width="336" height="448"></a>
+            <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"  style="border-radius: 10px;">
+                    Visita ao escritório da Avanade
+                </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#visita">
+                <div class="accordion-body">
+                    Visita ao escritório da Avanade,<br>
+                    na presença de gestores. Neste<br>
+                    dia, participamos de uma roda de<br>
+                    conversa e da seleção para um<br>
+                    programa de mentoria com a<br>
+                    empresa.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="nav-pessoal-07">
+    <div class="accordion" id="avanade">
+        <div class="accordion-item" style="border-radius: 10px;">
+            <a><img src="/arquivos/mentoria.png" alt="visita" width="819" height="490"></a>
+            <h2 class="accordion-header" id="headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"  style="border-radius: 10px;">
+                    Programa de mentoria Avanade
+                </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#avanade">
+                <div class="accordion-body">
+                    Durante o ano de 2023, dentre as 20 alunas da UNICAP selecionadas, tive a oportunidade de ser acompanhada
+                    por um gestor da área de tecnologia. A mentoria fez parte do incentivo desta empresa - parceira da Universidade -,
+                    em desenvolver e inserir mulheres no mercado de trabalho em áreas de Tecnologia da Informação.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="nav-pessoal-08">
+    <div class="accordion" id="concurso">
+        <div class="accordion-item" style="border-radius: 10px;">
+            <a><img src="/arquivos/concurso.jpg" alt="concurso" width="336" height="448"></a>
+            <h2 class="accordion-header" id="headingEight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight"  style="border-radius: 10px;">
+                    Concurso Público
+                </button>
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#concurso">
+                <div class="accordion-body">
+                    Sou universitária e concurseira e,<br>
+                    portanto, não é raro me encontrar <br>
+                    nas salas de estudos na biblioteca<br>
+                    da UNICAP.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="nav-pessoal-09">
+    <div class="accordion" id="aprovacao">
+        <div class="accordion-item" style="border-radius: 10px;">
+            <a><img src="/arquivos/aprovacao.png" alt="aprovacao" width="819" height="398"></a>
+            <h2 class="accordion-header" id="headingNine">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine"  style="border-radius: 10px;">
+                    Aprovação
+                </button>
+            </h2>
+            <div id="collapseNine" class="accordion-collapse collapse show" aria-labelledby="headingNine" data-bs-parent="#aprovacao">
+                <div class="accordion-body">
+                    Em 2024.1 fui aprovada em 8º lugar no concurso público do TRF 5,
+                    para o cargo Técnico em Tecnologia da Informação.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="./testa.js"></script>
 </body>
 </html>

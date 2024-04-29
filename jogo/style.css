@@ -184,12 +184,12 @@ position: absolute;
 transform: translate(-40%, -45%);
 width: 800px;
 height: 520px;
-opacity: 0.3
+opacity: 0.7;
 }
 
 #glass-box{
 left: 20%;
-background: #72ffff;
+background: #889F2A;
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 165, 0.57 );
 backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px );

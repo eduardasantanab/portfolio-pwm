@@ -166,6 +166,15 @@ animation: go-back 0.8s;
 
 /* box cinza com certificados */
 
+.titulo-cert{
+position: absolute;
+color: #6b3fa0;
+top: 105%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 1;
+}
+
 .box{
 margin: 0 auto;
 position: absolute;
@@ -174,7 +183,7 @@ left: 50%;
 transform: translate(-50%, -50%);
 width: 1300px;
 height: 600px;
-opacity: 0.3
+opacity: 0.3;
 }
 
 #glass-box{
@@ -226,28 +235,28 @@ height: 90px;
 }
 
 #c-01{
-top: 117%;
+top: 122%;
 left: 20%;
 }
 
 
 #c-02{
-top: 117%;
+top: 122%;
 left: 35%;
 }
 
 #c-03{
-top: 117%;
+top: 122%;
 left: 50%;
 }
 
 #c-04{
-top: 117%;
+top: 122%;
 left: 65%;
 }
 
 #c-05{
-top: 117%;
+top: 122%;
 left: 80%;
 }
 
@@ -270,24 +279,6 @@ border-left: 3px solid #039d91;
 height: 1100px;
 }
 
-.box-contato{
-margin: 0 auto;
-position: absolute;
-top: 400%;
-left: 50%;
-transform: translate(-50%, -50%);
-width: 1519px;
-height: 600px;
-opacity: 0.3
-}
-
-#contato{
-background: rgba( 255, 255, 255, 255);
-backdrop-filter: blur( 10px );
--webkit-backdrop-filter: blur( 4px );
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
-
 .timeline {
 position: absolute;
 top: 205%;
@@ -307,14 +298,15 @@ list-style-type: none;
 }
 
 #t00 {
-top: 262%;
-left: 61.8%;
+top: 230%;
+left: 61.7%;
+
 }
 
 #t01 {
 padding: 20px 50px;
-top: 230%;
-left: 61.7%;
+top: 262%;
+left: 61.8%;
 }
 
 #t02 {
@@ -451,6 +443,24 @@ color: #6b3fa0;
 }
 
 /* footer para contato */
+
+.box-contato{
+margin: 0 auto;
+position: absolute;
+top: 400%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 1519px;
+height: 600px;
+opacity: 0.3
+}
+
+#contato{
+background: rgba( 255, 255, 255, 255);
+backdrop-filter: blur( 10px );
+-webkit-backdrop-filter: blur( 4px );
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
 
 #titulo-footer{
 position: relative;
