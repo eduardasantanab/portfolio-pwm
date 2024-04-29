@@ -147,3 +147,13 @@ button{
 button:hover{
     background-color: #6b3fa0;
 }
+
+.group{
+    position: absolute;
+    top: 700px;
+    left: 300px;
+    transform: translate(230%, -50%);
+    text-align: center;
+    color: grey;
+    font-size: 10px;
+}

@@ -512,3 +512,13 @@ border-radius: 10px;
 z-index: -1;
 }
 
+
+.group{
+    position: absolute;
+    top: 453%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: grey;
+    font-size: 10px;
+}

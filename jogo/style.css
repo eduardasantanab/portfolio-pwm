@@ -248,3 +248,15 @@ left: 100px;
 position: fixed;
 top: -230px;
 }
+
+
+.group{
+ white-space: nowrap;
+position: absolute;
+top: 350px;
+left: 50px;
+transform: translate(-50%, -50%);
+text-align: center;
+color: grey;
+font-size: 10px;
+}
