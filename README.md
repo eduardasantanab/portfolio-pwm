@@ -1,4 +1,4 @@
-# Portfolio para projeto web<br/>
+# PORFTOLIO WEB <br/>
 
 Este projeto é um portfólio web desenvolvido como parte do trabalho da disciplina de Programação Web e Mobile. O site apresenta várias seções que abrangem tanto soft skills como hard skills, cada uma destacando diferentes aspectos sobre habilidades e experiências das quais já adquiri ao longo dos últimos anos. Nos tópicos abaixo estão algumas descrições detalhadas sobre as principais páginas e seções implementadas no portfólio.
 
